@@ -1,0 +1,67 @@
+{
+  "$id": "ce_leadership",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v1",
+  "apiName": "ce_leadership",
+  "enabled": true,
+  "field": [
+    {
+      "id": "yext/landingPageUrl",
+      "required": false
+    },
+    {
+      "id": "yext/description",
+      "required": false
+    },
+    {
+      "id": "yext/name",
+      "required": true
+    },
+    {
+      "id": "activeInAnswers",
+      "required": false
+    },
+    {
+      "id": "answersKeywords",
+      "required": false
+    },
+    {
+      "id": "primaryCTA",
+      "required": false
+    },
+    {
+      "id": "secondaryCTA",
+      "required": false
+    },
+    {
+      "id": "title",
+      "required": false
+    },
+    {
+      "id": "yext/firstName",
+      "required": false
+    },
+    {
+      "id": "yext/folder",
+      "required": false
+    },
+    {
+      "id": "yext/headshot",
+      "required": false
+    },
+    {
+      "id": "yext/labels",
+      "required": false
+    },
+    {
+      "id": "yext/lastName",
+      "required": false
+    },
+    {
+      "id": "yext/entityId",
+      "required": true
+    }
+  ],
+  "description": "",
+  "displayName": "Leadership",
+  "pluralDisplayName": ""
+}

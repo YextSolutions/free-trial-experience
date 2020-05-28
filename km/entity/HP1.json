@@ -1,0 +1,54 @@
+{
+  "$id": "HP1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "entityType": "yext/healthcareProfessional",
+  "labels": [],
+  "content": {
+    "c_activeInAnswers": true,
+    "c_answersSpecialty": "Answers",
+    "c_associatedLocations": [
+      "HF1"
+    ],
+    "c_primaryCTA": {
+      "label": "Schedule Appointment",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "c_secondaryCTA": {
+      "label": "Call Now",
+      "link": "+17574071153",
+      "linkType": "PHONE"
+    },
+    "yext/address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "1 Madison Ave",
+      "postalCode": "10010",
+      "region": "NY"
+    },
+    "yext/addressHidden": false,
+    "yext/description": "Doctor Greg House is a famed diagnostician that can solve any medical mystery.",
+    "yext/firstName": "Greg",
+    "yext/headshot": {
+      "height": 416,
+      "thumbnails": [
+        {
+          "height": 150,
+          "url": "http://a.mktgcdn.com/p/9DiirFzwTJzwRxRubcwDCU1eZ6DR1P7eLS2efRDCg6A/150x150.jpg",
+          "width": 150
+        },
+        {
+          "height": 94,
+          "url": "http://a.mktgcdn.com/p/9DiirFzwTJzwRxRubcwDCU1eZ6DR1P7eLS2efRDCg6A/94x94.jpg",
+          "width": 94
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/9DiirFzwTJzwRxRubcwDCU1eZ6DR1P7eLS2efRDCg6A/416x416.jpg",
+      "width": 416
+    },
+    "yext/lastName": "House",
+    "yext/mainPhone": "+17574070511",
+    "yext/name": "Greg House, MD",
+    "yext/timezone": "America/New_York"
+  }
+}

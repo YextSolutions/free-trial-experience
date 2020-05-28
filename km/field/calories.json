@@ -1,0 +1,15 @@
+{
+  "$id": "calories",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Calories",
+  "apiName": "c_calories",
+  "description": "",
+  "typeId": "yext/string",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

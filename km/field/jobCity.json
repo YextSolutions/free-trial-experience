@@ -1,0 +1,15 @@
+{
+  "$id": "jobCity",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Job City",
+  "apiName": "c_jobCity",
+  "description": "",
+  "typeId": "yext/string",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

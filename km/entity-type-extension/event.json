@@ -1,0 +1,24 @@
+{
+  "$id": "event",
+  "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
+  "entityType": "yext/event",
+  "enabled": true,
+  "field": [
+    {
+      "id": "activeInAnswers",
+      "required": false
+    },
+    {
+      "id": "answersKeywords",
+      "required": false
+    },
+    {
+      "id": "primaryCTA",
+      "required": false
+    },
+    {
+      "id": "secondaryCTA",
+      "required": false
+    }
+  ]
+}

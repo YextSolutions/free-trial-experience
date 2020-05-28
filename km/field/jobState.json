@@ -1,0 +1,15 @@
+{
+  "$id": "jobState",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Job State",
+  "apiName": "c_jobState",
+  "description": "",
+  "typeId": "yext/string",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

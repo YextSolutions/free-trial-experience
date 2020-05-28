@@ -1,0 +1,18 @@
+{
+  "$id": "associatedSpecialty",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Associated Specialty",
+  "apiName": "c_associatedSpecialty",
+  "description": "",
+  "typeId": "yext/list",
+  "type": {
+    "listType": {
+      "typeId": "yext/entityReference",
+      "type": {
+        "entityReferenceType": {}
+      }
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

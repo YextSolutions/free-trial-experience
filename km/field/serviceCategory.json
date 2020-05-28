@@ -1,0 +1,15 @@
+{
+  "$id": "serviceCategory",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Service Category",
+  "apiName": "c_serviceCategory",
+  "description": "",
+  "typeId": "yext/string",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

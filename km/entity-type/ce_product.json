@@ -1,7 +1,8 @@
 {
   "$id": "ce_product",
   "$schema": "https://schema.yext.com/config/km/entity-type/v1",
-  "apiName": "ce_product",
+  "description": "",
+  "displayName": "Product",
   "enabled": true,
   "field": [
     {
@@ -17,31 +18,31 @@
       "required": true
     },
     {
-      "id": "activeInAnswers",
+      "id": "c_activeInAnswers",
       "required": false
     },
     {
-      "id": "answersKeywords",
+      "id": "c_answersKeywords",
       "required": false
     },
     {
-      "id": "photo",
+      "id": "c_photo",
       "required": false
     },
     {
-      "id": "price",
+      "id": "c_price",
       "required": false
     },
     {
-      "id": "primaryCTA",
+      "id": "c_primaryCTA",
       "required": false
     },
     {
-      "id": "productCategory",
+      "id": "c_productCategory",
       "required": false
     },
     {
-      "id": "secondaryCTA",
+      "id": "c_secondaryCTA",
       "required": false
     },
     {
@@ -65,7 +66,5 @@
       "required": false
     }
   ],
-  "description": "",
-  "displayName": "Product",
   "pluralDisplayName": "Products"
 }

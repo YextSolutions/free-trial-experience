@@ -1,10 +1,10 @@
 {
-  "$id": "associatedProfessionals",
+  "$id": "c_associatedProfessionals",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "displayName": "Associated Professionals",
-  "apiName": "c_associatedProfessionals",
   "description": "",
-  "typeId": "yext/list",
+  "displayName": "Associated Professionals",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
   "type": {
     "listType": {
       "typeId": "yext/entityReference",
@@ -13,6 +13,5 @@
       }
     }
   },
-  "localization": "PRIMARY_ONLY",
-  "group": "NONE"
+  "typeId": "yext/list"
 }

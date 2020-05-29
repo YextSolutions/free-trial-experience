@@ -1,8 +1,6 @@
 {
   "$id": "Event1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
-  "entityType": "yext/event",
-  "labels": [],
   "content": {
     "c_activeInAnswers": true,
     "yext/address": {
@@ -28,5 +26,7 @@
       "preferDisplayUrl": false,
       "url": "https://www.yext.com"
     }
-  }
+  },
+  "entityType": "yext/event",
+  "labels": []
 }

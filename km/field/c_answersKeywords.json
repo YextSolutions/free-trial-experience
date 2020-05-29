@@ -1,10 +1,10 @@
 {
-  "$id": "answersKeywords",
+  "$id": "c_answersKeywords",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "displayName": "Answers Keywords",
-  "apiName": "c_answersKeywords",
   "description": "",
-  "typeId": "yext/list",
+  "displayName": "Answers Keywords",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
   "type": {
     "listType": {
       "typeId": "yext/string",
@@ -15,6 +15,5 @@
       }
     }
   },
-  "localization": "PRIMARY_ONLY",
-  "group": "NONE"
+  "typeId": "yext/list"
 }

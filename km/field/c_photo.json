@@ -1,9 +1,9 @@
 {
-  "$id": "photo",
+  "$id": "c_photo",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Photo",
-  "apiName": "c_photo",
-  "typeId": "yext/image",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
   "type": {
     "imageType": {
       "minSize": {
@@ -14,6 +14,5 @@
       "noAllowedAspectRatios": true
     }
   },
-  "localization": "PRIMARY_ONLY",
-  "group": "NONE"
+  "typeId": "yext/image"
 }

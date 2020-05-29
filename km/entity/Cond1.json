@@ -1,8 +1,6 @@
 {
   "$id": "Cond1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
-  "entityType": "ce_condition",
-  "labels": [],
   "content": {
     "c_activeInAnswers": true,
     "c_associatedProfessionals": [
@@ -16,5 +14,7 @@
     "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
     "yext/landingPageUrl": "https://www.yext.com",
     "yext/name": "Condition"
-  }
+  },
+  "entityType": "ce_condition",
+  "labels": []
 }

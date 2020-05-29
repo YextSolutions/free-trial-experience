@@ -1,7 +1,8 @@
 {
   "$id": "ce_leadership",
   "$schema": "https://schema.yext.com/config/km/entity-type/v1",
-  "apiName": "ce_leadership",
+  "description": "",
+  "displayName": "Leadership",
   "enabled": true,
   "field": [
     {
@@ -17,23 +18,23 @@
       "required": true
     },
     {
-      "id": "activeInAnswers",
+      "id": "c_activeInAnswers",
       "required": false
     },
     {
-      "id": "answersKeywords",
+      "id": "c_answersKeywords",
       "required": false
     },
     {
-      "id": "primaryCTA",
+      "id": "c_primaryCTA",
       "required": false
     },
     {
-      "id": "secondaryCTA",
+      "id": "c_secondaryCTA",
       "required": false
     },
     {
-      "id": "title",
+      "id": "c_title",
       "required": false
     },
     {
@@ -61,7 +62,5 @@
       "required": true
     }
   ],
-  "description": "",
-  "displayName": "Leadership",
   "pluralDisplayName": ""
 }

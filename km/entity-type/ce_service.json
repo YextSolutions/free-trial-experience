@@ -1,7 +1,8 @@
 {
   "$id": "ce_service",
   "$schema": "https://schema.yext.com/config/km/entity-type/v1",
-  "apiName": "ce_service",
+  "description": "",
+  "displayName": "Service",
   "enabled": true,
   "field": [
     {
@@ -17,35 +18,35 @@
       "required": true
     },
     {
-      "id": "activeInAnswers",
+      "id": "c_activeInAnswers",
       "required": false
     },
     {
-      "id": "answersKeywords",
+      "id": "c_answersKeywords",
       "required": false
     },
     {
-      "id": "associatedLocations",
+      "id": "c_associatedLocations",
       "required": false
     },
     {
-      "id": "associatedProfessionals",
+      "id": "c_associatedProfessionals",
       "required": false
     },
     {
-      "id": "photo",
+      "id": "c_photo",
       "required": false
     },
     {
-      "id": "primaryCTA",
+      "id": "c_primaryCTA",
       "required": false
     },
     {
-      "id": "secondaryCTA",
+      "id": "c_secondaryCTA",
       "required": false
     },
     {
-      "id": "serviceCategory",
+      "id": "c_serviceCategory",
       "required": false
     },
     {
@@ -61,7 +62,5 @@
       "required": true
     }
   ],
-  "description": "",
-  "displayName": "Service",
   "pluralDisplayName": "Services"
 }

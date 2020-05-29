@@ -1,19 +1,19 @@
 {
   "$id": "restaurant",
   "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
-  "entityType": "yext/restaurant",
   "enabled": false,
+  "entityType": "yext/restaurant",
   "field": [
     {
-      "id": "answersKeywords",
+      "id": "c_answersKeywords",
       "required": false
     },
     {
-      "id": "primaryCTA",
+      "id": "c_primaryCTA",
       "required": false
     },
     {
-      "id": "secondaryCTA",
+      "id": "c_secondaryCTA",
       "required": false
     }
   ]

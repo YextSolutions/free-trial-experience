@@ -1,0 +1,6 @@
+{
+  "$id": "answers-templatedomain.yext-cdn.com",
+  "$schema": "https://schema.yext.com/config/pages/domain/v1",
+  "domainName": "answers-templatedomain.yext-cdn.com",
+  "autoGenerateSitemap": true
+}

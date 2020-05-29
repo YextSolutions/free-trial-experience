@@ -1,8 +1,6 @@
 {
   "$id": "Job1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
-  "entityType": "yext/job",
-  "labels": [],
   "content": {
     "c_activeInAnswers": true,
     "c_department": "Hitchhikers",
@@ -21,5 +19,7 @@
       "existingLocation": "Loc1"
     },
     "yext/name": "Yext Analyst"
-  }
+  },
+  "entityType": "yext/job",
+  "labels": []
 }

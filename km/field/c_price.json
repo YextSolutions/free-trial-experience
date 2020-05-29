@@ -1,15 +1,14 @@
 {
-  "$id": "title",
+  "$id": "c_price",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "displayName": "Title",
-  "apiName": "c_title",
   "description": "",
-  "typeId": "yext/string",
+  "displayName": "Price",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
   "type": {
     "stringType": {
       "stereotype": "SIMPLE"
     }
   },
-  "localization": "PRIMARY_ONLY",
-  "group": "NONE"
+  "typeId": "yext/string"
 }

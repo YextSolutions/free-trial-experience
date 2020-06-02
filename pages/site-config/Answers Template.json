@@ -1,7 +1,6 @@
 {
   "$id": "Answers Template",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
-  "domain": "answers-templatedomain.yext-cdn.com",
   "features": [],
   "publishingConfig": {
     "pinnedProductionBranchName": "refs/heads/master",

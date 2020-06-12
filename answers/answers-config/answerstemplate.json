@@ -9,7 +9,6 @@
       "entityTypes": [
         "atm"
       ],
-      "keywords": [],
       "name": "ATMs",
       "searchableFields": {
         "builtin.entityType": {
@@ -34,17 +33,16 @@
       "entityTypes": [
         "ce_condition"
       ],
-      "keywords": [],
       "name": "Conditions",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         },
         "c_associatedLocations.name": {
-          "nlpFilter": true
+          "textSearch": true
         },
         "c_associatedProfessionals.name": {
-          "nlpFilter": true
+          "textSearch": true
         },
         "c_associatedSpecialty.name": {
           "nlpFilter": true
@@ -60,7 +58,6 @@
       "entityTypes": [
         "event"
       ],
-      "keywords": [],
       "name": "Events",
       "searchableFields": {
         "address": {
@@ -83,7 +80,6 @@
       "entityTypes": [
         "faq"
       ],
-      "keywords": [],
       "name": "FAQs",
       "searchableFields": {
         "builtin.entityType": {
@@ -100,7 +96,6 @@
       "entityTypes": [
         "healthcareFacility"
       ],
-      "keywords": [],
       "name": "Facilities",
       "searchableFields": {
         "address": {
@@ -132,7 +127,6 @@
       "entityTypes": [
         "job"
       ],
-      "keywords": [],
       "name": "Jobs",
       "searchableFields": {
         "builtin.entityType": {
@@ -163,7 +157,6 @@
       "entityTypes": [
         "ce_leadership"
       ],
-      "keywords": [],
       "name": "Leadership",
       "searchableFields": {
         "builtin.entityType": {
@@ -179,11 +172,18 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
+    "Links": {
+      "apiKey": "AIzaSyAEJA2cd9RgcKqCzUl8I8iW9gdy0JphYXs",
+      "cx": "011160367914084378876:oirauegipmv",
+      "name": "Links",
+      "siteRestricted": false,
+      "source": "GOOGLE_CSE",
+      "useSynonyms": "ALL_SYNONYMS"
+    },
     "Locations": {
       "entityTypes": [
         "location"
       ],
-      "keywords": [],
       "name": "Locations",
       "searchableFields": {
         "builtin.entityType": {
@@ -192,9 +192,6 @@
         "builtin.location": {
           "nlpFilter": true,
           "textSearch": true
-        },
-        "hours": {
-          "directAnswer": true
         },
         "name": {
           "textSearch": true
@@ -207,7 +204,6 @@
       "entityTypes": [
         "ce_menuItem"
       ],
-      "keywords": [],
       "name": "Menu Items",
       "searchableFields": {
         "builtin.entityType": {
@@ -235,7 +231,6 @@
       "entityTypes": [
         "ce_product"
       ],
-      "keywords": [],
       "name": "Products",
       "searchableFields": {
         "builtin.entityType": {
@@ -258,7 +253,6 @@
       "entityTypes": [
         "healthcareProfessional"
       ],
-      "keywords": [],
       "name": "Professionals",
       "searchableFields": {
         "address": {
@@ -270,10 +264,13 @@
         "builtin.location": {
           "nlpFilter": true
         },
-        "c_associatedLocations.name": {
+        "builtin.medicalSpecialty": {
           "nlpFilter": true
         },
-        "conditionsTreated": {
+        "builtinFile.medicalCondition": {
+          "nlpFilter": true
+        },
+        "c_associatedLocations.name": {
           "textSearch": true
         },
         "firstName": {
@@ -303,11 +300,30 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
+    "Restaurants": {
+      "entityTypes": [
+        "restaurant"
+      ],
+      "name": "Restaurants",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
     "Services": {
       "entityTypes": [
         "ce_service"
       ],
-      "keywords": [],
       "name": "Services",
       "searchableFields": {
         "builtin.entityType": {
@@ -336,7 +352,6 @@
       "entityTypes": [
         "ce_specialty"
       ],
-      "keywords": [],
       "name": "Specialties",
       "searchableFields": {
         "builtin.entityType": {

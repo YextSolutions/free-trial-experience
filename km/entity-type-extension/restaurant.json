@@ -1,9 +1,13 @@
 {
   "$id": "restaurant",
   "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
-  "enabled": false,
+  "enabled": true,
   "entityType": "yext/restaurant",
   "field": [
+    {
+      "id": "c_activeInAnswers",
+      "required": false
+    },
     {
       "id": "c_answersKeywords",
       "required": false

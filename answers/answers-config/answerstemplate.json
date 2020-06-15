@@ -173,8 +173,8 @@
       "source": "KNOWLEDGE_MANAGER"
     },
     "Links": {
-      "apiKey": "AIzaSyAEJA2cd9RgcKqCzUl8I8iW9gdy0JphYXs",
-      "cx": "011160367914084378876:oirauegipmv",
+      "apiKey": "REPLACE_API_KEY",
+      "cx": "REPLACE_CX_KEY",
       "name": "Links",
       "siteRestricted": false,
       "source": "GOOGLE_CSE",

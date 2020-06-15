@@ -25,8 +25,8 @@
       "region": "NY"
     },
     "yext/addressHidden": false,
-    "yext/description": "Doctor Greg House is a famed diagnostician that can solve any medical mystery.",
-    "yext/firstName": "Greg",
+    "yext/description": "Doctor Sam Jones is a famed diagnostician that can solve any medical mystery.",
+    "yext/firstName": "Sam",
     "yext/headshot": {
       "height": 416,
       "thumbnails": [
@@ -44,9 +44,9 @@
       "url": "http://a.mktgcdn.com/p/9DiirFzwTJzwRxRubcwDCU1eZ6DR1P7eLS2efRDCg6A/416x416.jpg",
       "width": 416
     },
-    "yext/lastName": "House",
+    "yext/lastName": "Jones",
     "yext/mainPhone": "+17574070511",
-    "yext/name": "Greg House, MD",
+    "yext/name": "Sam Jones, MD",
     "yext/timezone": "America/New_York"
   },
   "entityType": "yext/healthcareProfessional",

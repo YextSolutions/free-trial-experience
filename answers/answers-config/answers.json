@@ -132,14 +132,6 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "c_jobCity": {
-          "nlpFilter": true,
-          "textSearch": true
-        },
-        "c_jobState": {
-          "nlpFilter": true,
-          "textSearch": true
-        },
         "employmentType": {
           "nlpFilter": true
         },

@@ -15,7 +15,8 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true
+          "nlpFilter": true,
+          "textSearch": true
         }
       },
       "sortBys": [],
@@ -89,7 +90,8 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true
+          "nlpFilter": true,
+          "textSearch": true
         },
         "c_associatedProfessionals.name": {
           "textSearch": true
@@ -137,7 +139,7 @@
           "textSearch": true
         },
         "employmentType": {
-          "nlpFilter": true
+          "textSearch": true
         },
         "hiringOrganization": {
           "textSearch": true
@@ -258,7 +260,8 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true
+          "nlpFilter": true,
+          "textSearch": true
         },
         "builtin.medicalSpecialty": {
           "nlpFilter": true

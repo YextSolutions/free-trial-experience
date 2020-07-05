@@ -1,11 +1,11 @@
 {
   "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
-  "$id": "answerstemplate",
-  "name": "Answers Template",
+  "$id": "answers",
+  "name": "answers",
   "supportedLocales": [],
   "countryRestrictions": [],
   "verticals": {
-    "ATMs": {
+    "atms": {
       "entityTypes": [
         "atm"
       ],
@@ -21,7 +21,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "CDC_COVID": {
+    "cdc-covid": {
       "headers": {},
       "method": "POST",
       "name": "CDC Coronavirus FAQs",
@@ -29,7 +29,7 @@
       "source": "CUSTOM_SEARCHER",
       "url": "https://lps9q23cb7.execute-api.us-east-1.amazonaws.com/prod"
     },
-    "Conditions": {
+    "conditions": {
       "entityTypes": [
         "ce_condition"
       ],
@@ -54,7 +54,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "Events": {
+    "events": {
       "entityTypes": [
         "event"
       ],
@@ -76,23 +76,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "FAQs": {
-      "entityTypes": [
-        "faq"
-      ],
-      "name": "FAQs",
-      "searchableFields": {
-        "builtin.entityType": {
-          "nlpFilter": true
-        },
-        "name": {
-          "textSearch": true
-        }
-      },
-      "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER"
-    },
-    "Facilities": {
+    "facilities": {
       "entityTypes": [
         "healthcareFacility"
       ],
@@ -123,7 +107,23 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "Jobs": {
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "jobs": {
       "entityTypes": [
         "job"
       ],
@@ -153,7 +153,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "Leadership": {
+    "leadership": {
       "entityTypes": [
         "ce_leadership"
       ],
@@ -172,7 +172,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "Links": {
+    "links": {
       "apiKey": "REPLACE_API_KEY",
       "cx": "REPLACE_CX_KEY",
       "name": "Links",
@@ -180,7 +180,7 @@
       "source": "GOOGLE_CSE",
       "useSynonyms": "ALL_SYNONYMS"
     },
-    "Locations": {
+    "locations": {
       "entityTypes": [
         "location"
       ],
@@ -200,7 +200,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "Menu_Items": {
+    "menu-items": {
       "entityTypes": [
         "ce_menuItem"
       ],
@@ -219,7 +219,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "NHS_COVID": {
+    "nhs-covid": {
       "headers": {},
       "method": "POST",
       "name": "NHS Coronavirus FAQs",
@@ -227,7 +227,7 @@
       "source": "CUSTOM_SEARCHER",
       "url": "https://qt81fms627.execute-api.us-east-1.amazonaws.com/prod"
     },
-    "Products": {
+    "products": {
       "entityTypes": [
         "ce_product"
       ],
@@ -249,7 +249,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "Professionals": {
+    "professionals": {
       "entityTypes": [
         "healthcareProfessional"
       ],
@@ -300,7 +300,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "Restaurants": {
+    "restaurants": {
       "entityTypes": [
         "restaurant"
       ],
@@ -320,7 +320,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "Services": {
+    "services": {
       "entityTypes": [
         "ce_service"
       ],
@@ -348,7 +348,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "Specialties": {
+    "specialties": {
       "entityTypes": [
         "ce_specialty"
       ],
@@ -364,7 +364,7 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "WHO_COVID": {
+    "who-covid": {
       "headers": {},
       "method": "POST",
       "name": "WHO Coronavirus FAQs",

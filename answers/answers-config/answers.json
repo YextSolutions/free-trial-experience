@@ -132,6 +132,10 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
+        "builtin.location": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
         "employmentType": {
           "nlpFilter": true
         },

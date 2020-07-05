@@ -141,7 +141,7 @@
           "textSearch": true
         },
         "employmentType": {
-          "textSearch": true
+          "nlpFilter": true
         },
         "hiringOrganization": {
           "textSearch": true

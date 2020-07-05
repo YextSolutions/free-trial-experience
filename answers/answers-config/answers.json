@@ -249,11 +249,11 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
-    "professionals": {
+    "providers": {
       "entityTypes": [
         "healthcareProfessional"
       ],
-      "name": "Professionals",
+      "name": "Providers",
       "searchableFields": {
         "address": {
           "directAnswer": true
